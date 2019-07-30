@@ -1,0 +1,4 @@
+chsh -s /usr/local/bin/fish
+chsh: /usr/local/bin/fish: non-standard shell
+sudo chown mac /etc/shells
+sudo echo /usr/local/bin/fish >> /etc/shells
